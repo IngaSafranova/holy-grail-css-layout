@@ -54,6 +54,7 @@ nav {
             /* INNER GRID STYLES*/
 
 .inner-grid {
+    overflow-y: scroll; /*To scroll down*/
     display: grid;
     grid-area: alias-innergrid;
     background-color: rgba(0, 31, 255, 0.2);
@@ -70,7 +71,7 @@ nav {
 main {
     grid-area: alias-main;
     background-color: rgba(159, 161, 179, 0.2);
-
+    height: 2000px; /* To have scrolling*/
 }
 
 aside {
